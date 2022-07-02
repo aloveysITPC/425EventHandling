@@ -23,6 +23,7 @@ function App() {
       <h1>{headingText}</h1>
       <input type="text" placeholder="What's your name?" />
       <button
+        // use ternary operator
         style={{ backgroundColor: bkgColor ? "black" : "white" }}
         onClick={handleClick}
         onMouseOver={goBlack}
